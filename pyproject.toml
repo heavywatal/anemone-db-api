@@ -1,11 +1,12 @@
 [project]
 name = "anemone-db-api"
 version = "0.1.0"
-description = "Add your description here"
+description = "API for ANEMONE DB"
 readme = "README.md"
 authors = [
     { name = "Watal M. Iwasaki", email = "heavywatal@users.noreply.github.com" }
 ]
+license = { file = "LICENSE" }
 requires-python = ">=3.13"
 dependencies = []
 
