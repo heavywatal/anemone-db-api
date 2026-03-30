@@ -7,19 +7,19 @@ authors = [
     { name = "Watal M. Iwasaki", email = "heavywatal@users.noreply.github.com" }
 ]
 license = { file = "LICENSE" }
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 dependencies = [
-    "fastapi[standard-no-fastapi-cloud-cli]>=0.118.0",
-    "polars>=1.34.0",
+    "fastapi[standard-no-fastapi-cloud-cli]>=0.135.2",
+    "polars>=1.39.3",
 ]
 
 [dependency-groups]
 dev = [
-    "ruff>=0.13.3",
+    "ruff>=0.15.8",
 ]
 
 [build-system]
-requires = ["uv_build>=0.8.24,<0.9.0"]
+requires = ["uv_build>=0.10.10,<1.0.0"]
 build-backend = "uv_build"
 
 [tool.pyright]
